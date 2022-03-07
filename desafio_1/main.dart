@@ -1,6 +1,7 @@
+import 'dart:math';
+
 void main() {
-  final arr = [9, 2, 1, 4, 6];
-  print(mediana(arr));
+  test();
 }
 
 double mediana(List arr) {
@@ -12,4 +13,14 @@ double mediana(List arr) {
   } else {
     return (arr[meio - 1] + arr[meio]) / 2;
   }
+}
+
+void test() {
+  final List testes = [
+    [1, 5, 3, 4, 2],
+    [3, 7, 9, 4, 5]
+  ];
+  final List randomList = testes[Random().nextInt(testes.length)];
+  print('Lista selecionada: $randomList');
+  print('A mediana é: ${mediana(randomList)}');
 }
