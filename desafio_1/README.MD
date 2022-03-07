@@ -1,4 +1,4 @@
-# Exercício 2 - Determinar o número de elementos pares do vetor que tem uma diferença igual ao valor de x
+# Exercício 1 - Encontrar a mediana de uma lista de números
 
 ## Objetivo
 
